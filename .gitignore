@@ -1,0 +1,9 @@
+# Ignore everything by default; this repository publishes HTML only.
+*
+
+# Keep directories traversable so HTML files can be added below the root.
+!*/
+
+# Allow the policy itself and HTML pages.
+!.gitignore
+!*.html

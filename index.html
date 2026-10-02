@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kejun Liu 的个人主页正在建设中。">
+    <title>Kejun Liu</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family:
+          system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #171717;
+        background: #faf9f7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-width: 0;
+        min-height: 100vh;
+        min-height: 100svh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: clamp(1.5rem, 6vw, 5rem);
+      }
+
+      main {
+        width: 100%;
+        max-width: 44rem;
+      }
+
+      .eyebrow {
+        margin: 0 0 1.25rem;
+        color: #737373;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(3rem, 11vw, 7.5rem);
+        font-weight: 650;
+        letter-spacing: -0.055em;
+        line-height: 0.92;
+      }
+
+      .name {
+        display: block;
+        margin-top: 0.12em;
+      }
+
+      .message {
+        max-width: 32rem;
+        margin: clamp(2rem, 5vw, 3.5rem) 0 0;
+        color: #525252;
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        line-height: 1.8;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.65rem;
+        margin: clamp(2.5rem, 7vw, 5rem) 0 0;
+        color: #737373;
+        font-size: 0.8rem;
+        letter-spacing: 0.06em;
+      }
+
+      .status::before {
+        width: 0.45rem;
+        height: 0.45rem;
+        border-radius: 50%;
+        background: #a3a3a3;
+        content: "";
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Personal homepage</p>
+      <h1>Hello.<span class="name">I’m Kejun Liu.</span></h1>
+      <p class="message">个人主页正在建设中，欢迎以后再来看看。</p>
+      <p class="status">Coming soon</p>
+    </main>
+  </body>
+</html>
